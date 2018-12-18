@@ -1,0 +1,3 @@
+[submodule "library/ovh-dns"]
+	path = library/ovh-dns
+	url = git@github.com:gheesh/ansible-ovh-dns.git

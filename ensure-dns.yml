@@ -1,0 +1,4 @@
+---
+- hosts: all
+  tasks:
+   - ovh_dns: state=present domain=beta.gouv.fr name=demo-aplus type=CNAME value=demo-aplus.beta.gouv.fr.herokudns.com.
